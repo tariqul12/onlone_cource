@@ -1,0 +1,19 @@
+.btn{
+    background-color: #3CB371 !important;
+    color: #fff !important;
+}
+.btn:hover{
+    background-color: #107225 !important;
+}
+.form-control{
+    border-color: #3CB371 !important;
+}
+.navbar-nav a{
+    color: black !important;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav a:hover{
+    color: #3CB371 !important;
+}

@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+    width: 75%;
+}
+.course{
+    border-right: 2px solid gray;
+
+}
+.salary_count{
+    margin-left: 10px;
+}
+.icon{
+    margin-right: 5px;
+}

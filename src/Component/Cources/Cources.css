@@ -1,0 +1,28 @@
+.cource{
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+.images{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.images img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+.descriptation{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.descriptation h4{
+    font-size: 18px;
+    color: mediumvioletred;
+    font-family: 'Roboto', sans-serif;
+
+}
+.name{
+    color: brown;
+}
