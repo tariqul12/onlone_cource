@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import './../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Logo from './../../images/logo (1).png';
+import { Link,NavLink } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
@@ -15,16 +16,17 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">jobs</a>
+          <NavLink className="nav-link active" aria-current="page" to="/jobs" style={({ isActive }) =>{
+             return {color: isActive ? '#309532' : ''}}}>jobs</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Success Story</a>
+          <NavLink className="nav-link" to="/success">Success Story</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">All Courses</a>
+          <NavLink className="nav-link" to="/courses">All Courses</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Blog</a>
+          <NavLink className="nav-link" to="/blog">Blog</NavLink>
         </li>
        
        

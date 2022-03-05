@@ -7,7 +7,8 @@ import Salary from '../Salary/Salary';
 const Home = () => {
     const [cources,setCources]= useState(fakeData);
     const [salary,setSalary] = useState([]);
-    // console.log(cources);
+    cources.sort(()=>0.5-Math.random())
+    console.log(cources);
     const handelClick=(props)=>{
         console.log("button click",props);
         const newSalary=[...salary,props];
